@@ -11,3 +11,7 @@ deployment = "deployment.toml"
 [[contracts]]
 name = "ecdsa-lock"
 template_type = "Rust"
+
+[[contracts]]
+name = "ecdsa-recover-lock"
+template_type = "Rust"

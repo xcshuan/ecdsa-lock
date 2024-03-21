@@ -151,6 +151,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "ecdsa-recover-lock"
+version = "0.1.0"
+dependencies = [
+ "ckb-std",
+ "k256",
+]
+
+[[package]]
 name = "elliptic-curve"
 version = "0.13.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
